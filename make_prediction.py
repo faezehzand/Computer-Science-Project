@@ -113,7 +113,7 @@ def hybrid_recommendations(user_id, num_recommendations=5):
 
 # Test the recommendation system
 
-user_id = 1
+user_id = 11
 print(f"Collaborative Recommendations for User {user_id}:")
 print(recommend_collaborative(user_id, num_recommendations=5))
 
